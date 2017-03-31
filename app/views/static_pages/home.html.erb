@@ -1,5 +1,7 @@
+<% provide(:title, "Home") %>
+
 <head>
-<title>Home - FT</title>
+<title><%= yield(:title)%> - FT</title>
 </head>
 <h1>StaticPages#home</h1>
 <p>Luckily you found twitterfake online. We do nothing more than faking twitter accounts here. Find me in app/views/static_pages/home.html.erb</p>
